@@ -4,7 +4,7 @@
 	background-position: 0 0;
 }*/
 	.header {
-	background: linear-gradient(#ccc 1%, transparent 50%, transparent 80%), url("../../img/bg_header.png") no-repeat;
+	background: linear-gradient(#ccc 1%, transparent 50%, transparent 80%), url("../img/bg_header.png") no-repeat;
 	background-position: 0 0;
 }
 	.header_content {
