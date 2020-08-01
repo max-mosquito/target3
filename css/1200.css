@@ -1,0 +1,30 @@
+@media (max-width: 1200px) {
+	.header {
+	
+}
+	.header_content {
+		
+	}
+	.header_title {
+		padding-right: 20px;
+	}
+	.header_title h2 {
+		font-size: 49px;
+	}
+	.header_title h2 span {
+		font-size: 49px;
+	}
+	.header_title h3 {
+		font-size: 30px;
+	}
+	.header_form p {
+		padding: 30px 10px;
+	}
+	.footer_wrap {padding-top: 135px;}
+	.footer_title h2 {
+		font-size: 50px;
+		line-height: 50px;
+	}
+	.footer_title p {font-size: 35px;}
+	.footer_form { max-width: 50%;}
+}
