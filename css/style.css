@@ -1,12 +1,12 @@
 @font-face {
   font-family: "Gotham Pro";
-  src: local("Gotham Pro Regular"), local("Gotham-Pro-Regular"), url("../fonts/GothamPro/GothamPro.woff2") format("woff2"), url("../fonts/GothamPro/GothamPro.woff") format("woff"), url("../fonts/GothamPro/GothamPro.ttf") format("truetype");
+  src: local("Gotham Pro Regular"), local("Gotham-Pro-Regular"), url("../../fonts/GothamPro/GothamPro.woff2") format("woff2"), url("../../fonts/GothamPro/GothamPro.woff") format("woff"), url("../../fonts/GothamPro/GothamPro.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "Gotham Pro";
-  src: local("Gotham Pro Bold"), local("Gotham-Pro-Bold"), url("../fonts/GothamPro-Bold/GothamPro-Bold.woff2") format("woff2"), url("../fonts/GothamPro-Bold/GothamPro-Bold.woff") format("woff"), url("../fonts/GothamPro-Bold/GothamPro-Bold.ttf") format("truetype");
+  src: local("Gotham Pro Bold"), local("Gotham-Pro-Bold"), url("../../fonts/GothamPro-Bold/GothamPro-Bold.woff2") format("woff2"), url("../../fonts/GothamPro-Bold/GothamPro-Bold.woff") format("woff"), url("../../fonts/GothamPro-Bold/GothamPro-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
 }
@@ -26,7 +26,7 @@ body {
 }
 
 .header {
-  background: url("../img/bg_header.png") no-repeat;
+  background: url("../../img/bg_header.png") no-repeat;
   background-position: calc(((100vw - 1200px) / 2) + 550px) -105px;
   overflow: hidden;
 }
@@ -141,7 +141,8 @@ form {
   font-weight: 900;
   color: #171717;
   border: none;
-  font-size: 18px;
+  font-size: 16px;
+  letter-spacing: normal;
 }
 
 .form_text-bottom {
@@ -157,7 +158,7 @@ form {
 }
 
 .about_wrap {
-  background: url("../img/bg_about.png") calc((1270px - (100vw / 2)) * -1) 0 no-repeat, url("../img/bg_about2.png") calc((100vw / 2) + 400px) 600px no-repeat;
+  background: url("../../img/bg_about.png") calc((1270px - (100vw / 2)) * -1) 0 no-repeat, url("../../img/bg_about2.png") calc((100vw / 2) + 400px) 600px no-repeat;
   margin-top: -90px;
   padding-bottom: 370px;
 }
@@ -194,7 +195,7 @@ form {
   padding-bottom: 60px;
 }
 .p1 p:before {
-  content: url("../img/a1.png");
+  content: url("../../img/a1.png");
 }
 
 .p2 {
@@ -203,7 +204,7 @@ form {
   padding-bottom: 60px;
 }
 .p2 p:before {
-  content: url("../img/a2.png");
+  content: url("../../img/a2.png");
 }
 
 .p3 {
@@ -212,7 +213,7 @@ form {
   padding-bottom: 60px;
 }
 .p3 p:before {
-  content: url("../img/a3.png");
+  content: url("../../img/a3.png");
 }
 
 .p4 {
@@ -220,7 +221,7 @@ form {
   margin-left: 0px;
 }
 .p4 p:before {
-  content: url("../img/a4.png");
+  content: url("../../img/a4.png");
 }
 
 .p1 p:before,
@@ -283,18 +284,18 @@ form {
   left: 38px;
   width: 24px;
   height: 43px;
-  background: url("../img/l.png") 0 0 no-repeat;
+  background: url("../../img/l.png") 0 0 no-repeat;
 }
 
 .slick-arrow.slick-next {
   right: 38px;
   width: 24px;
   height: 43px;
-  background: url("../img/r.png") 0 0 no-repeat;
+  background: url("../../img/r.png") 0 0 no-repeat;
 }
 
 .footer {
-  background: url("../img/bg_footer1.png") calc(100vw / 2) 72% no-repeat, url("../img/bg_footer2.png") calc((100vw / 2) - 206px) 800px no-repeat, url("../img/bg_footer3.png") calc((50vw - 652px) - 543px) 0 no-repeat;
+  background: url("../../img/bg_footer1.png") calc(100vw / 2) 72% no-repeat, url("../../img/bg_footer2.png") calc((100vw / 2) - 206px) 800px no-repeat, url("../../img/bg_footer3.png") calc((50vw - 652px) - 543px) 0 no-repeat;
 }
 
 .footer_wrap {

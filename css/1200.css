@@ -17,6 +17,9 @@
 	.header_title h3 {
 		font-size: 30px;
 	}
+	.header_content #submit {
+		font-size: 14px;
+	}
 	.header_form p {
 		padding: 30px 10px;
 	}

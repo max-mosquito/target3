@@ -32,6 +32,8 @@
 		font-size: 20px;
     	line-height: 20px;
     	padding-bottom: 0px;
+    	display: inline;
+    	background-color: whitesmoke;
 	}
 	.header_title h2 span {
 		font-size: 20px;
@@ -72,6 +74,7 @@
 	}
 	.header_form #submit {
 		letter-spacing:normal;
+		font-size: 13px;
 	}
 	/*----------------------*/
 	.about_wrap {
@@ -124,8 +127,8 @@
 	}
 	.footer {
 	background: 
-	url("../img/bg_footer2.png") calc((100vw / 2) - 600px) 300px no-repeat,
-	url("../img/bg_footer1.png") calc(100vw / 2) 0% no-repeat,
+	url("../../img/bg_footer2.png") calc((100vw / 2) - 600px) 300px no-repeat,
+	url("../../img/bg_footer1.png") calc(100vw / 2) 0% no-repeat,
 	
 	url("../../img/bg_footer3.png") calc((50vw - 652px) - 543px) 0 no-repeat;
 	}
@@ -139,12 +142,17 @@
 		font-size: 20px;
 		padding-bottom: 20px;
 	}
-	form {padding: 0;}
+	form {
+		padding: 0;
+	}
 	.footer_form { max-width: 100%;}
 	.footer_form input {
 		font-size: 15px;
 		padding: 10px 0;
 		margin-bottom: 20px;
+	}
+	#submit {
+		padding: 12px 0;
 	}
 	.footer_form p {
 		color:#fff;
