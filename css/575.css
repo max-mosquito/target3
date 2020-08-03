@@ -127,10 +127,10 @@
 	}
 	.footer {
 	background: 
-	url("../../img/bg_footer2.png") calc((100vw / 2) - 600px) 300px no-repeat,
-	url("../../img/bg_footer1.png") calc(100vw / 2) 0% no-repeat,
+	url("../img/bg_footer2.png") calc((100vw / 2) - 600px) 300px no-repeat,
+	url("../img/bg_footer1.png") calc(100vw / 2) 0% no-repeat,
 	
-	url("../../img/bg_footer3.png") calc((50vw - 652px) - 543px) 0 no-repeat;
+	url("../img/bg_footer3.png") calc((50vw - 652px) - 543px) 0 no-repeat;
 	}
 	.footer_wrap {padding: 75px 20px 50px;}
 	.footer_title h2 {
